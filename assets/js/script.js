@@ -13,8 +13,12 @@ function showTime(){
     }
 
     if(h>12){
-        h = h-12;
-        session = "PM";
+        h= h-12;
+        session= "PM";
+    }
+
+    if(h<10){
+        h = "0" + h;
     }
 
 }
