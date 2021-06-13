@@ -46,7 +46,7 @@ function showTime() {
 
     let bg;
 
-    const userName = "Steve"
+    const userName = "Steve";
     const user = document.getElementById("User");
 
 
@@ -66,7 +66,7 @@ function showTime() {
 
     const body = document.querySelector("body");
 
-    body.style.background = `${bg} center/cover`
+    body.style.background = `${bg} center/cover`;
 
 }
 
@@ -75,7 +75,7 @@ addEventListener("keypress", function(event) {
 
     if (event.key === "Enter") {
         const focus = document.querySelector(".focus-container input");
-        document.querySelector(".focus-container").innerHTML = `<h6>TODAY:</h6><h1>${focus.value}</h1>`
+        document.querySelector(".focus-container").innerHTML = `<h6>TODAY:</h6><h1>${focus.value}</h1>`;
     }
 
-})
+});
