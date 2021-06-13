@@ -66,7 +66,15 @@ function showTime() {
 
     body.style.background = `${bg} center/cover`
 
-    
+}
 
+document.querySelector(".focus-container input").
+addEventListener("keypress",function(event){
+
+    if(event.key==="Enter"){
+        const focus = document.querySelector(".focus-container input");
+        document.querySelector(".focus-container").innerHTML=`<h6>TODAY:</h6><h1>${focus}</h1>`
+    }
 
 }
+)
