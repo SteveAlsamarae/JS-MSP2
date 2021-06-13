@@ -33,5 +33,8 @@ function showTime(){
     m = m < 10 ? (m = "0" + m) : m;
     s = s < 10 ? (s = "0" + s) : s;
 
+    const = time h + ":" + m + ":" + s + "" + '|' + "" + session;
+    console.log(time);
+
 
 }
