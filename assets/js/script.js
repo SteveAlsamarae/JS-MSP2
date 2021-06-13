@@ -36,6 +36,7 @@ function showTime() {
     const time = h + ":" + m + ":" + s + "" + '|' + "" + session;
     console.log(time);
     document.getElementById("DisplayClock").innerHTML = time;
+    setTimeout(showTime, 1000);
 
 
 }
