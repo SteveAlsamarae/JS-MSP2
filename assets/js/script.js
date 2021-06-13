@@ -61,6 +61,11 @@ function showTime() {
         bg = `url(https://source.unsplash.com/ln5drpv_ImI)`;
         user.innerHTML = `Good Night ${userName}`;
     }
+
+    const body = document.querySelector("body");
+
+    body.style.background = `${bg} center/cover`
+
     
 
 
