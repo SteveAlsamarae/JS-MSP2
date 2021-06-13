@@ -51,16 +51,16 @@ function showTime() {
 
 
     if (h < 8 && session === "AM") {
-        bg = `url(https://wallpapercave.com/wp/wp4889227.jpg)`;
+        bg = `url("assets/images/morning-img.jpg")`;
         user.innerHTML = `Good Morning ${userName}`;
     } else if (h < 11 && session === "AM") {
-        bg = `url(https://images7.alphacoders.com/550/550963.jpg)`;
+        bg = `url("assets/images/day-img.jpg")`;
         user.innerHTML = `Good Day ${userName}`;
     } else if (h < 8 && session === "PM") {
-        bg = `url(https://jooinn.com/images/afternoon-sun-1.jpg)`;
+        bg = `url("assets/images/afternoon-img.jpg")`;
         user.innerHTML = `Good Afternoon ${userName}`;
     } else {
-        bg = `url(https://wallpaperaccess.com/full/2859272.jpg)`;
+        bg = `url("assets/images/night-img.jpg")`;
         user.innerHTML = `Good Night ${userName}`;
     }
 
