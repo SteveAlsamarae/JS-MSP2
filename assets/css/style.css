@@ -18,14 +18,20 @@ body{
     transform: translate(-50%,-50%);
     text-shadow: 2px 1px 1px #333333;
     text-align: center;
+    color: #ffffff;
 }
 
 .clock {
-    color: #ffffff;
+    
     font-size: 150px;
 }
 
 .user {
-    color: #ffffff;
+    
     font-size: 2.8rem;
+}
+
+.focus-container{
+    margin-top: 3rem;
+    font-size: 2rem;
 }
