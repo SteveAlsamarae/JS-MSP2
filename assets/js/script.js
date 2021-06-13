@@ -46,6 +46,21 @@ function showTime() {
 
     const userName = "Steve"
     const user = document.getElementById("User");
+
+
+    if(h < 8 && session === "AM") {
+        bg = `url(https://source.unsplash.com/G_a9JhmiZFk)`;
+        user.innerHTML = `Good Morning ${userName}`;
+    } else if (h < 11 && session === "AM") {
+        bg = `url(https://source.unsplash.com/XGzW_tr_8YI)`;
+        user.innerHTML = `Good Day ${userName}`;
+    } else if (h < 8 && session === "PM") {
+        bg = `url(https://source.unsplash.com/Cjz1UAz8VBs)`;
+        user.innerHTML = `Good Afternoon ${userName}`;
+    } else {
+        bg = `url(https://source.unsplash.com/ln5drpv_ImI)`;
+        user.innerHTML = `Good Night ${userName}`;
+    }
     
 
 
