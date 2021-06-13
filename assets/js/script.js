@@ -34,7 +34,7 @@ function showTime() {
     s = s < 10 ? (s = "0" + s) : s;
 
     // const time = h + ":" + m + ":" + s + "" + '|' + "" + session;
-    const time = `${h}:${m}:${s}|${session}`;
+    const time = `${h}:${m}<small>.${s}|${session}</small>`;
 
 
     document.getElementById("DisplayClock").innerHTML = time;

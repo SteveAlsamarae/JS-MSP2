@@ -46,3 +46,7 @@ body{
     border-bottom: 2px solid #dddddd;
     font-size: 3rem;
 }
+
+small{
+    font-size: 50px;
+}
