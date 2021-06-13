@@ -40,5 +40,13 @@ function showTime() {
     document.getElementById("DisplayClock").innerHTML = time;
     setTimeout(showTime, 1000);
 
+    //body background
+
+    let bg;
+
+    const userName = "Steve"
+    const user = document.getElementById("User");
+    
+
 
 }
