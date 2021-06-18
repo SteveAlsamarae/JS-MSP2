@@ -52,27 +52,25 @@ small {
   font-size: 50px;
 }
 
-@media screen and (max-width: 500px){
-
+@media screen and (max-width: 500px) {
   #main-container {
-  background-size: cover;
-  background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .clock {
-  font-size: 60px;
-}
+    font-size: 60px;
+  }
 
-.user {
-  font-size: 1.8rem;
-}
-
-.focus-container {
+  .user {
     font-size: 1.8rem;
-}
+  }
 
-.focus-container input {
+  .focus-container {
+    font-size: 1.8rem;
+  }
+
+  .focus-container input {
     font-size: 1.5rem;
-}
-
+  }
 }
