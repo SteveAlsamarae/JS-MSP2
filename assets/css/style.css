@@ -54,15 +54,25 @@ small {
 
 @media screen and (max-width: 500px){
 
-  .clock-container {
-  position: absolute;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-shadow: 2px 1px 1px #333333;
-  text-align: center;
-  color: #ffffff;
-  width: 20%;
+  #main-container {
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+
+  .clock {
+  font-size: 60px;
+}
+
+.user {
+  font-size: 1.8rem;
+}
+
+.focus-container {
+    font-size: 1.8rem;
+}
+
+.focus-container input {
+    font-size: 1.5rem;
 }
 
 }
