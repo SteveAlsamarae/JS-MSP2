@@ -52,3 +52,52 @@ It includes a live clock, a task input, and beautiful landscape backgrounds to m
   ![Focus-Today](assets/rm-images/focus-today.png)
 Once the input is given, the task will stay on the screen underneath 'Today': 
 ![Today-Task](assets/rm-images/today-task.png)
+
+## Features left to implement
+   - User 24h format instead of 12.
+   - Add more inputs for daily tasks
+   - Add a deadline feature.
+   - Design and style the live clock feature.
+   - Add feature where user can choose from various backgrounds and set them manually.
+
+## Testings
+
+  All app's features and interactivity function as intended, various testings were conducted.
+  ![Lighthouse-Report](assets/rm-images/lighthouse-report.png) 
+
+ 
+## Validator Testing
+- HTML
+   - No errors returned when passing through the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+
+- JS
+  - No errors were found when passing through [JSHint](https://jshint.com/)
+
+## Unfixed Bugs
+None found.
+
+## Deployment
+- The site was deployed to GitHub pages.
+
+Live link: https://stevealsamarae.github.io/JS-MSP2/
+
+Github link: https://github.com/SteveAlsamarae/JS-MSP2
+
+## Credits
+* Credits Code Institude, tasks taught me a lot on how to put together. Help from mentor, and the slack community.
+
+* Credits Udemy for also offering me a course that I have undertaken.
+
+* Credits W3schools.
+
+The concept of this app is not original.
+
+### Media
+  - All images used were taken from
+    - https://wallpapercave.com/
+    - https://jooinn.com/
+    - https://wallpaperaccess.com/
+    
