@@ -100,4 +100,5 @@ The concept of this app is not original.
     - https://wallpapercave.com/
     - https://jooinn.com/
     - https://wallpaperaccess.com/
-    
+#### APP Wireframe ####
+![Lighthouse-Report](assets/rm-images/wireframe.png) 
