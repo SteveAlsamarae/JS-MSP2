@@ -1,59 +1,54 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Live Digital Mood Clock
+This responsive app is designed for people to have a live clock running on their screens with their
+goal for the day as a reminder. 
 
-Welcome Steve Alsamarae,
+![Mockup-image](assets/rm-images/mockup-img.png)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+## Features:
+This app was designed, with simplistic and responsive features which helps benefit the user by being a daily reminder of the time and their goals. 
+It includes a live clock, a task input, and beautiful landscape backgrounds to make the user's screen pop.
 
-## Gitpod Reminders
+## Existing Features:
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+#### Interchangable Backgrounds:
+ - Beautiful landscape portrait backgrounds that change based on the local's time of the day.
+ 
+     - If the hour is less than 8 AM, then the backgroud automatically switches to a morning type background.
+     ![Morning-BG](assets/rm-images/morning-background.png)
 
-`python3 -m http.server`
+     - If the hour is less than 11 AM, then the background automatically switches to a day type background.
+     ![Day-BG](assets/rm-images/day-background.png)
 
-A blue button should appear to click: _Make Public_,
+     - If the hour is less than 8 PM, then the background automatically switches to an afternoon type background.
+     ![Afternoon-BG](assets/rm-images/afternoon-background.png)
 
-Another blue button should appear to click: _Open Browser_.
+     - If the hour is more than 8 PM, then the background automatically switches to a night type background.
+     ![Night-BG](assets/rm-images/night-background.png)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+#### Live Clock:
+- Live Clock that presents the time(hours, minutes & seconds) of day based on local host, with an AM/PM session.
+![Live-Clock](assets/rm-images/live-clock.png)
 
-A blue button should appear to click: _Make Public_,
+#### Good Morning, Good Day, Good Afternoon, Good Evening:
+- Good Morning text
+  - If the hour is less than 8 AM, then a 'Good Morning' text shows up.
+  ![Good-Morning](assets/rm-images/good-morning.png)
 
-Another blue button should appear to click: _Open Browser_.
+- Good Day text
+  - If the hour is less than 11 AM, then a 'Good Day' text shows up.
+  ![Good-Day](assets/rm-images/good-day.png)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- Good Afternoon text
+  - If the hour is less than 8 PM, then a 'Good Afternoon' text shows up.
+  ![Good-Afternoon](assets/rm-images/good-afternoon.png)
 
-To log into the Heroku toolbelt CLI:
+- Good Night text
+  - If the hour is more than 8 PM, then a 'Good Night' text shows up.
+  ![Good-Night](assets/rm-images/good-night.png)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
----
-
-Happy coding!
+#### Daily Task Reminder
+- 'What is your focus today?' text.
+  - Includes input field where the user put their today's task in and have it as a reminder on the screen.
+  ![Focus-Today](assets/rm-images/focus-today.png)
+Once the input is given, the task will stay on the screen underneath 'Today': 
+![Today-Task](assets/rm-images/today-task.png)
